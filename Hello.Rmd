@@ -38,8 +38,23 @@ His name is Kevin...
 ![Kev](download.jpg)
 
 
+Here is a table of Kevins Friends and what type of animal they are
+
+```{r}
 
 
+# creating a data frame containing Kevins friends names
+friend.data <- data.frame(
+    KevinsFriendsName = c("Billy", "George", 
+                    "Wanda", "Karen", 
+                    "Fred"),
+    Species = c("Frog", "Cow", "Dolphin", "Giraffe", "Spider"),
+    stringsAsFactors = FALSE
+)
+# print the data frame
+print(friend.data)
+
+```
 
 
 
