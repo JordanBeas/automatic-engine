@@ -48,7 +48,7 @@ friend.data <- data.frame(
     KevinsFriendsName = c("Billy", "George", 
                     "Wanda", "Karen", 
                     "Fred"),
-    Species = c("Frog", "Cow", "Dolphin", "Giraffe", "Spider"),
+    Species = c("Toad", "Goat", "Whale", "Okapi", "Praying Mantis"),
     stringsAsFactors = FALSE
 )
 # print the data frame
